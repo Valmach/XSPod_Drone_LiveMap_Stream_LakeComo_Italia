@@ -1,4 +1,4 @@
-package net.butterflytv.desktop.interfaces;
+package dk.XerSim.interfaces;
 
 public interface IStatus {
 	

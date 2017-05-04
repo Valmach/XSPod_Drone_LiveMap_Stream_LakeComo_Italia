@@ -1,10 +1,9 @@
-package net.butterflytv.desktop;
+package dk.XerSim;
 
 import javax.swing.SwingUtilities;
-import javax.swing.SwingWorker;
 
-import net.butterflytv.desktop.interfaces.IStatus;
-import net.butterflytv.desktop.interfaces.JoystickSpeedListener;
+import dk.XerSim.interfaces.IStatus;
+import dk.XerSim.interfaces.JoystickSpeedListener;
 
 import org.lwjgl.LWJGLException;
 import org.lwjgl.input.Controller;
@@ -12,10 +11,6 @@ import org.lwjgl.input.Controllers;
 
 import de.yadrone.base.ARDrone;
 import de.yadrone.base.IARDrone;
-import de.yadrone.base.navdata.ControlState;
-import de.yadrone.base.navdata.DroneState;
-import de.yadrone.base.navdata.StateListener;
-
 
 
 public class ArdroneJoystickController {

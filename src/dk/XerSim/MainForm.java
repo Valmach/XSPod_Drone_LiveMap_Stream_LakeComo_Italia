@@ -1,4 +1,4 @@
-package net.butterflytv.desktop;
+package dk.XerSim;
 
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
@@ -23,14 +23,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
-import net.butterflytv.desktop.interfaces.IStatus;
-import net.butterflytv.desktop.interfaces.JoystickSpeedListener;
+import dk.XerSim.interfaces.IStatus;
+import dk.XerSim.interfaces.JoystickSpeedListener;
 
-import org.lwjgl.LWJGLException;
-import org.lwjgl.input.Controller;
-import org.lwjgl.input.Controllers;
-
-import de.yadrone.apps.controlcenter.YADroneControlCenter;
 import de.yadrone.base.ARDrone;
 import de.yadrone.base.IARDrone;
 import de.yadrone.base.command.VideoBitRateMode;
@@ -50,8 +45,6 @@ import flex.messaging.io.amf.client.exceptions.ServerStatusException;
 import javax.swing.JTextField;
 import javax.swing.JCheckBox;
 import javax.swing.JTabbedPane;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 
 public class MainForm implements KeyListener, IStatus, JoystickSpeedListener {
 
